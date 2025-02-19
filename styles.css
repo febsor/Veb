@@ -1,0 +1,207 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.tabs {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.tablink {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tablink:hover {
+    background-color: #ddd;
+}
+
+.tablink.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    height: 500px; /* Фиксированная высота */
+    overflow-y: auto; /* Вертикальная полоса прокрутки */
+}
+
+.topic {
+    margin-bottom: 20px;
+}
+
+.topic h4 {
+    margin: 0 0 10px 0;
+    color: #4CAF50;
+}
+
+.topic p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+.navigation {
+    min-width: 24%;
+    border: 2px solid silver;
+    margin: 0.1%;
+    font-family: Comic Sans MS;
+    font-size: 20pt;
+}
+.navigation a:hover{
+    color: #4CAF50;
+    text-decoration: underline;
+    font-size: 24pt;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content p {
+    margin: 10px 0;
+}
+
+.social-links {
+    margin: 15px 0;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.social-links a:hover {
+    color: #4CAF50;
+    text-decoration: underline;
+}
+.list li {
+    padding: 12px;
+    font-family: simpson;
+    font-size: 16pt;
+}
+
+h3, h4 {
+    font-size: 20pt;
+}
+
+.tip {
+    width: 400px;
+}
+
+table td{
+    padding: 12px;
+    vertical-align: top;
+}
+.whiteboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрирование по горизонтали */
+    justify-content: center; /* Центрирование по вертикали */
+    margin: 20px auto;
+    text-align: center;
+    width: 100%; /* Занимает всю ширину */
+}
+
+#whiteboard {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; /* Центрирование canvas внутри контейнера */
+}
+
+.controls {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Расстояние между элементами */
+    justify-content: center; /* Центрирование кнопок */
+}
+
+.controls button, .controls input {
+    margin: 5px;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.controls input[type="color"] {
+    padding: 2px;
+    height: 40px;
+}
+
+.controls input[type="range"] {
+    width: 100px;
+}
+
+iframe {
+    margin: 12px;
+}
